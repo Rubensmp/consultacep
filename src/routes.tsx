@@ -8,6 +8,7 @@ export const Router: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Pages.Cep />} />
+      <Route path="/noticias" element={<Pages.Noticias />} />
     </Routes>
   )
 }
